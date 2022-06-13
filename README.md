@@ -14,7 +14,7 @@ A ideia é entender melhor o conceito de filas em aplicações que demanda um pr
 
 Separei em duas aplicações sendo elas **bull-sending** e **bull-receive** ambas contem uma pequena api usando o **Express**, apenas para enviar dados para fila e visualizar os dados que foram recebidos (mesmo o log já fazendo esse serviço).
 
-Assim como nome segure a api do **bull-sending** é responsável por enviar os dados para a api do **bull-receive** que por sua vez é responsável por tratar os dados recebidos, nesse caso adicionando para um Array.
+Assim como nome sugere a api do **bull-sending** é responsável por enviar os dados para a api do **bull-receive** que por sua vez é responsável por tratar os dados recebidos, nesse caso adicionando para um Array.
 
 O motivo de terem duas aplicações separadas é para ter a possibilidade de parar uma delas, assim fazendo sentido utilizar a fila e o **Redis**.
 
